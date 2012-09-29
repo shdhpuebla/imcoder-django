@@ -118,7 +118,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'social_auth',
-    'profiles',
+    'imcoder.profiles',
 )
 
 # A sample logging configuration. The only tangible logging

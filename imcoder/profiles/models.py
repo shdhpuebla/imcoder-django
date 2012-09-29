@@ -11,6 +11,6 @@ class Coder(models.Model):
     user = models.OneToOneField(User)
     languages = TagField()
     status = models.CharField(max_length=20, choices=STATUS)
-    recommended = models.ManyToManyField(User)
-    friends = models.ManyToManyField(User)
+    recommended = models.ManyToManyField(User, related_name='r+')
+    friends = models.ManyToManyField(User, related_name='f+')
 
