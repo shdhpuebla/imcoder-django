@@ -1,0 +1,4 @@
+Django
+django-tagging
+django-social-auth
+
